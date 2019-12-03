@@ -7,16 +7,16 @@
   },
   "scripts": {
     "test": "npm run lint",
-    "prettier": "prettier --config .prettierrc.json --write main.js",
-    "lint": "eslint main.js",
-    "lint:fix": "eslint --fix main.js",
+    "prettier": "prettier --config .prettierrc.json --write main.js lab5.js",
+    "lint": "eslint main.js lab5.js",
+    "lint:fix": "eslint --fix main.js lab5.js",
     "precommit": "npm run lint:fix",
     "prepush": "npm run test",
-    "start": "node main.js "
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TsakeLove/travis-ci.git"
+    "url": "git+https://github.com/IvanLuchkin/nodelab5.git"
   },
   "engines": {
     "node": "10.17.0"

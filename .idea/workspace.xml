@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d70751aa-c040-4eab-be85-7f6106c525af" name="Default Changelist" comment="" />
+    <list default="true" id="d70751aa-c040-4eab-be85-7f6106c525af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../nodelab5/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodelab5/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodelab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nodelab5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodelab5/lab5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodelab5/lab5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodelab5/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../nodelab5/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodelab5/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nodelab5/page.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +28,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nodelab5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../node" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -46,7 +52,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.main.js">
+  <component name="RunManager" selected="JavaScript Debug.page.html">
+    <configuration name="page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/nodelab5/page.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../nodelab5/main.js" working-dir="$PROJECT_DIR$/../nodelab5">
       <method v="2" />
     </configuration>
@@ -70,10 +79,22 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../nodelab5/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="JavaScript Debug.page.html" />
         <item itemvalue="npm.lint:fix" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="npm.lint" />
       </list>
     </recent_temporary>
@@ -88,11 +109,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575387227324</updated>
-      <workItem from="1575387228760" duration="857000" />
+      <workItem from="1575387228760" duration="2497000" />
     </task>
+    <task id="LOCAL-00001" summary="added multiple fixes for successful Heroku deployment">
+      <created>1575388194162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575388194162</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added multiple fixes for successful Heroku deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="added multiple fixes for successful Heroku deployment" />
   </component>
 </project>
