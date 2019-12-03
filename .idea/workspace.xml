@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70751aa-c040-4eab-be85-7f6106c525af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../nodelab5/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodelab5/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nodelab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nodelab5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodelab5/lab5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodelab5/lab5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodelab5/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../nodelab5/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodelab5/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nodelab5/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodelab5/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodelab5/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575387227324</updated>
-      <workItem from="1575387228760" duration="2497000" />
+      <workItem from="1575387228760" duration="4285000" />
     </task>
     <task id="LOCAL-00001" summary="added multiple fixes for successful Heroku deployment">
       <created>1575388194162</created>
@@ -118,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575388194162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix">
+      <created>1575389837205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575389837205</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added multiple fixes for successful Heroku deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="added multiple fixes for successful Heroku deployment" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
