@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d70751aa-c040-4eab-be85-7f6106c525af" name="Default Changelist" comment="" />
+    <list default="true" id="d70751aa-c040-4eab-be85-7f6106c525af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +18,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../nodelab5" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UTiwuymsDOB8k9LV0M3Og7sTLD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,8 +37,11 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../nodelab5" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -46,15 +56,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.page.html">
+  <component name="RunManager" selected="npm.lint:fix">
     <configuration name="page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/nodelab5/page.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../nodelab5/main.js" working-dir="$PROJECT_DIR$/../nodelab5">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/../nodelab5/package.json" />
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="lint" />
@@ -64,7 +74,7 @@
       <method v="2" />
     </configuration>
     <configuration name="lint:fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/../nodelab5/package.json" />
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="lint:fix" />
@@ -74,7 +84,7 @@
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/../nodelab5/package.json" />
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="test" />
@@ -85,8 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.page.html" />
         <item itemvalue="npm.lint:fix" />
+        <item itemvalue="JavaScript Debug.page.html" />
         <item itemvalue="npm.test" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="npm.lint" />
@@ -103,7 +113,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575387227324</updated>
-      <workItem from="1575387228760" duration="5476000" />
+      <workItem from="1575387228760" duration="5827000" />
+      <workItem from="1575494293232" duration="7000" />
+      <workItem from="1575542224056" duration="1872000" />
     </task>
     <task id="LOCAL-00001" summary="added multiple fixes for successful Heroku deployment">
       <created>1575388194162</created>
@@ -140,11 +152,36 @@
       <option name="project" value="LOCAL" />
       <updated>1575393024101</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix">
+      <created>1575393385777</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575393385777</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix">
+      <created>1575543763767</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575543763767</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added multiple fixes for successful Heroku deployment" />
