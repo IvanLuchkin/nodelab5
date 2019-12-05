@@ -1,35 +1,16 @@
 {
-  "name": "travis-ci",
-  "version": "1.0.0",
-  "dependencies": {
-    "express": "^4.17.1",
-    "exprss": "0.0.1-security"
-  },
+  "name": "nodelab5",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "npm run lint",
-    "prettier": "prettier --config .prettierrc.json --write main.js lab5.js",
-    "lint": "eslint main.js lab5.js",
-    "lint:fix": "eslint --fix main.js lab5.js",
-    "precommit": "npm run lint:fix",
-    "prepush": "npm run test",
-    "start": "node main.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IvanLuchkin/nodelab5.git"
-  },
-  "engines": {
-    "node": "10.17.0"
-  },
-  "devDependencies": {
-    "eslint": "^6.7.1",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "husky": "^3.1.0",
-    "pre-commit": "^1.2.2",
-    "prettier": "^1.19.1"
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "^1.9.1"
   }
 }
