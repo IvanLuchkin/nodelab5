@@ -11,6 +11,7 @@ function coursePrice (id) {
     price += parseInt(form.length.value)
     price += parseInt(form.repForm.value)
   }
+  alert(1)
   return price
 }
 function showOrHide (id) {

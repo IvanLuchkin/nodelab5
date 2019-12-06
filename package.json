@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "eslint .eslintrc.js",
+    "lint": "eslint public/javascripts/lab5.js",
+    "lint:fix": "eslint --fix public/javascripts/lab5.js",
+    "start": "node public/javascripts/lab5.js"
   },
   "dependencies": {
     "cookie-parser": "^1.4.4",
